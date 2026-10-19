@@ -4,7 +4,7 @@ Free modular companion for Aion 2. Previously named Aion2SmartMeter.
 
 [Download the latest Companion release](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/latest)
 
-Extract the release ZIP and run the EXE. Select the tools you want from **Modules**. Companion installs and updates each module independently from GitHub, using a signed catalog and SHA-256 verification. English, Italian and Estonian are supported.
+The Companion ZIP contains the application, licenses and documentation. Modules are downloaded separately and require an Internet connection for their first installation. Extract the release ZIP and run the EXE. Select the tools you want from **Modules**. Companion installs and updates each module independently from GitHub, using a signed catalog and SHA-256 verification. English, Italian and Estonian are supported.
 
 | Module | Version | Release |
 |---|---|---|
