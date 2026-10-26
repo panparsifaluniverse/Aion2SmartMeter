@@ -30,21 +30,21 @@
     },
     {
       "id": "soul_tracking",
-      "version": "1.10",
-      "archive": "soul_tracking-1.10.zip",
-      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/soul_tracking-v1.10/soul_tracking-1.10.zip",
-      "sha256": "f62363283013069ca71032202b4a988c4ce9fa53ff3a53e07c5824b698fc1136",
-      "size": 11488595,
-      "manifest_sha256": "acb0b86f8cbcb8c21b9fbb4947d1c4c413a198dcc6519fad748cfaca670a1353"
+      "version": "1.13",
+      "archive": "soul_tracking-1.13.zip",
+      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/soul_tracking-v1.13/soul_tracking-1.13.zip",
+      "sha256": "02ea652b5c94ecfdf70c6b80f7cc5f94fbe50d3e136f34f297f0c3cff657d766",
+      "size": 11489064,
+      "manifest_sha256": "ce839e3d47f9c177346000e98a3946cf44f837afc64610420ba911299b4210bb"
     },
     {
       "id": "loot",
-      "version": "1.7",
-      "archive": "loot-1.7.zip",
-      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/loot-v1.7/loot-1.7.zip",
-      "sha256": "8da41b7cbd8ab79b7c043bcf4eaeaf15f96f005b32fed4240f3a2ce8599de2c8",
-      "size": 26808669,
-      "manifest_sha256": "b135ab93c6c8ca310e9cd94f128ae2c62cd7aeabb265fc8b8f9f9873b63b88f4"
+      "version": "1.10",
+      "archive": "loot-1.10.zip",
+      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/loot-v1.10/loot-1.10.zip",
+      "sha256": "b5ec61780ca81be6b79625582c815af11dd9108f2ae3ced71e0d12c73ee634da",
+      "size": 26947807,
+      "manifest_sha256": "d34da1ab860777ed6bac3642e38156b1836dfb5361df525bd851ce6c4ae6d8bc"
     },
     {
       "id": "events",
@@ -66,13 +66,13 @@
     },
     {
       "id": "aion2pedia",
-      "version": "1.31",
-      "archive": "aion2pedia-1.31.zip",
-      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/aion2pedia-v1.31/aion2pedia-1.31.zip",
-      "sha256": "adbd8ab6da0a0bbe0b24a1e18f9ec720bd9af18c7b988ed98d8cdfd00e6963d0",
-      "size": 1062202,
-      "manifest_sha256": "e4f861c15deffb117cd34a13013b9f35c6de57b3b2436df4307deff44ecaf9d8"
+      "version": "1.37",
+      "archive": "aion2pedia-1.37.zip",
+      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/aion2pedia-v1.37/aion2pedia-1.37.zip",
+      "sha256": "7b0ea6256107c597fc7ea30c570e02f4ef74023e763f80fa0dd64609f7193bb8",
+      "size": 1065566,
+      "manifest_sha256": "2070f49f59d681f5a938ce4a27ee8a25a5a4e8ffa50bce25817c5ab1850ff084"
     }
   ],
-  "signature": "dseV/M3It3gQEni7qY0CPL2pMpV5JosBaXYr3MDVshtr7qpo1xhUhrEWqZ9fbaVv1TV/5sN2o0AKxOo1p7d0Dg=="
+  "signature": "2Cowj87xqp2Q+h0B8zXJh1SS5kG4vhk5sbfzMAKZ4O/3CG2hcMFkazWItb0lQCU3EjGPKsm+zynuaHzA3640Aw=="
 }
