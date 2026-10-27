@@ -3,8 +3,10 @@
 ## Crash sleeping all'avvio: Companion v1.294
 
 L'errore `'Mochipi' object has no attribute 'sleeping'` è nel Companion
-aggiornato con un pacchetto Games precedente all'API del sonno. Aggiornare
-il Companion alla v1.294, poi aprire Moduli e aggiornare Games alla 1.35.
+aggiornato con un pacchetto Games precedente all'API del sonno. Scaricare lo
+ZIP della v1.295 (o almeno v1.294) da GitHub, estrarlo e avviare il nuovo EXE:
+non serve poter aprire il Companion precedente. Poi aggiornare Games alla 1.36
+da Moduli. Il fix di avvio è incluso dalla v1.294.
 Non eliminare il salvataggio del pet o l'identità Amici. Lo script Google
 non può correggere questo crash locale.
 
@@ -12,6 +14,16 @@ Lo script A2Companion.gs espone già visits_live, shared_hygiene, sleep_sync
 e farm_bonus. Se il codice dell'editor coincide ma il servizio pubblicato
 non espone queste funzioni, pubblicare una nuova versione dello **stesso
 deployment**, conservando URL, proprietà e fogli. Non rieseguire setup.
+
+## Messaggio pulizia condivisa durante una visita
+
+Prima di v1.295 / Games 1.36 un pet appena caricato poteva mostrare
+"Aggiorna lo script Google" anche prima di ricevere la conferma delle capacita.
+La versione corretta distingue attesa del sync da assenza effettiva della
+funzione. Se il servizio espone shared_hygiene non serve reinstallare la pulizia:
+aggiornare Companion e Games, attendere il sync di Amici (relog se richiesto)
+e riprovare. Aggiornare entrambi i partecipanti per condividere correttamente
+macchie e rimozioni. Non eliminare i salvataggi per sbloccare la pulizia.
 
 ## Aggiornamento v1.283 / Games 1.25: sonno e bonus farm
 
