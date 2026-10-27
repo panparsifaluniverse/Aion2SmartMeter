@@ -1,5 +1,18 @@
 # Attivare Amici Mochipi sul servizio delle segnalazioni
 
+## Crash sleeping all'avvio: Companion v1.294
+
+L'errore `'Mochipi' object has no attribute 'sleeping'` è nel Companion
+aggiornato con un pacchetto Games precedente all'API del sonno. Aggiornare
+il Companion alla v1.294, poi aprire Moduli e aggiornare Games alla 1.35.
+Non eliminare il salvataggio del pet o l'identità Amici. Lo script Google
+non può correggere questo crash locale.
+
+Lo script A2Companion.gs espone già visits_live, shared_hygiene, sleep_sync
+e farm_bonus. Se il codice dell'editor coincide ma il servizio pubblicato
+non espone queste funzioni, pubblicare una nuova versione dello **stesso
+deployment**, conservando URL, proprietà e fogli. Non rieseguire setup.
+
 ## Aggiornamento v1.283 / Games 1.25: sonno e bonus farm
 
 Aggiornare lo stesso deployment con A2Companion.gs, senza rifare il setup,
