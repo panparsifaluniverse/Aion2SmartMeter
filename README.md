@@ -40,6 +40,6 @@ Only Companion releases use **Latest**. The current signed catalog is [`module-r
 
 ## Mochipi Friends service
 
-Live EXP, shared messes, synchronized sleep and farming bonuses require the updated [Google Apps Script](server/A2Companion.gs). Redeploy the existing project without changing its URL, properties or spreadsheets and without rerunning setup. [Deployment instructions](server/README.md). Publishing GitHub releases does not redeploy Google Apps Script.
+Live EXP, shared messes, synchronized sleep and farming bonuses require the updated Google Apps Script, distributed privately. Redeploy the existing project without changing its URL, properties or spreadsheets and without rerunning setup. [Deployment instructions](server/README.md). Publishing GitHub releases does not redeploy Google Apps Script.
 
 The combat bridge is based on [RATmeter](https://github.com/Kuroukihime/AIon2-Dps-Meter). License information is included in the application archive.
