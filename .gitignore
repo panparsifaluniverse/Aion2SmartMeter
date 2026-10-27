@@ -1,0 +1,4 @@
+# Google backend script is private
+*.gs
+*.GS
+*Google-Apps-Script*.txt
