@@ -1,5 +1,70 @@
 # Attivare Amici Mochipi sul servizio delle segnalazioni
 
+## Aggiornamento v1.283 / Games 1.25: sonno e bonus farm
+
+Aggiornare lo stesso deployment con A2Companion.gs, senza rifare il setup,
+senza cambiare URL, proprieta, fogli o token. doGet deve esporre sleep_sync
+e farm_bonus in social_features. Entrambi gli utenti devono aggiornare il
+Companion alla v1.283 e Games alla 1.25.
+
+Il sonno esplicito del proprietario prevale sulla previsione di energia;
+anche risvegli anticipati e incubi si riflettono sul client dell'amico.
+La somma dell'EXP farmata da entrambi genera un bonus del 20% per ciascun
+Mochipi, consegnato soltanto alla fine e incluso nel resoconto. Report
+cumulativi, premio congelato e ACK evitano accrediti ripetuti. Per includere
+gli ultimi secondi il server attende la chiusura dei report di entrambi:
+massimo 120 secondi dopo la fine se un client non risponde. Dopo il termine
+di tolleranza, la farm tardiva non modifica il bonus gia congelato.
+
+## Aggiornamento v1.281 / Games 1.23: sporco condiviso
+
+Aggiornare lo stesso deployment con A2Companion.gs, conservando URL, fogli,
+proprieta e token, senza rifare il setup. doGet deve mostrare shared_hygiene
+in social_features. Entrambi i Companion devono usare Games 1.23 e v1.281.
+
+Il server raccoglie le nuove macchie della visita (ID, tipo, coordinate
+normalizzate e proprietario), le mostra a entrambi e conserva una tombstone
+quando sono pulite. Richieste ripetute non fanno ricomparire lo sporco.
+In caso di pulizia simultanea vince una sola richiesta: solo quel giocatore
+riceve la ricevuta positiva per 50 EXP (cacca) o 75 EXP (vomito). Le ricevute
+vengono ritirate solo dopo ACK del salvataggio riuscito sul client.
+La sincronizzazione durante una visita passa a circa 5 secondi, con invio
+anticipato dopo una nuova macchia o un clic. Il testo EXP+ compare dopo
+l'accredito confermato. I client precedenti restano compatibili con le
+visite, ma non possono condividere macchie e pulizie.
+
+## Correzione v1.279 / Games 1.21
+
+Aggiornare nuovamente lo stesso deployment con A2Companion.gs. Le visite
+gia avviate senza la modalita live vengono abilitate quando sincronizza un
+client aggiornato: XP cumulativa viene inviata sia al visitatore sia a chi
+ospita. L'app mostra EXP+ con il valore accreditato solo dopo il salvataggio
+del credito, e il resoconto include l'intero totale, senza duplicarlo.
+Conservare URL, fogli, proprieta e token. Non rifare il setup.
+
+## Aggiornamento v1.278 / Games 1.20
+
+Sostituire il codice dello stesso progetto con **A2Companion.gs** e creare
+una nuova versione del deployment web esistente. Conservare URL, proprieta,
+token e fogli; non eseguire di nuovo setup e non creare un secondo servizio.
+`doGet` deve mostrare `visits_live` in `social_features`.
+
+Le visite iniziate con il client aggiornato restituiscono EXP cumulativa
+a ogni sincronizzazione, circa ogni 30 secondi. Il client salva insieme
+credito e ricevuta e al termine aggiunge solo la differenza ancora dovuta.
+Tornando prima, l'EXP maturata resta al pet; solo le risorse subiscono il 20%
+di penalita. Le visite precedenti conservano le regole v2 gia in corso.
+Dalla visita successiva a una visita completa di un'ora con lo stesso
+amico, entrambi hanno +15% EXP e cuoricini. Gli amici ora includono il livello
+del loro Mochipi, aggiornato dal normale sync. I pisolini notturni lunghi
+sono supportati nel calcolo EXP doppia del sonno.
+
+Le Sfide su visite totali/amici diversi usano ricevute server: contano solo
+le visite iniziate dal giocatore e durate almeno 5 minuti. Sfide, inventario
+e uso degli articoli sono locali. Senza aggiornare lo script, la vecchia
+sincronizzazione resta compatibile ma non fornisce EXP in corso, bonus
+legame, livelli amici o i metadati necessari alle nuove Sfide sociali.
+
 ## Aggiornamento v1.270 / Games 1.15: Kit medico condiviso
 
 Lo script aggiunge kit_medico agli articoli condivisibili durante una visita.
