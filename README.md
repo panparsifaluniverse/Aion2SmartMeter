@@ -6,19 +6,18 @@ Free modular companion for Aion 2. Previously named Aion2SmartMeter.
 
 Extract the Companion ZIP, close the previous application completely and run the new EXE. Open **Companion > Modules > Update installed** to update your tools. Character data and preferences are preserved. English, Italian and Estonian are supported.
 
-## Latest: v1.295
+## Latest: v1.312
 
-- **Shared cleanup fix:** a visit that is still synchronizing no longer incorrectly asks to update the Google script. Reloaded pets reuse capabilities already confirmed in the current session. Wait for Friends to sync and retry cleanup.
+- **Games / Mochipi 1.52:** playable card-battle training across four biomes, a fanned hand extending outside the battle window, red cooldown counters and animated critical hits.
+- Family-specific unlockable skills, stage-4 specials, team support, one-turn shields and 33 distinct sound effects. Choose cards in the pet skills window before starting an encounter.
+- Compact movable squad panel, loading centered on the Adventure window and a cozy results screen showing the current player's pet EXP preview.
+- Gentler global stat-upgrade prices, displayed once below the growth-fragment balance. Existing points and balances are preserved.
+- Party browser with public/private groups, organizer approval, member removal and readiness. GM redemption interface and GM Candy evolution item.
+- **Online party requirement:** the dedicated Battles service must be privately redeployed with **rules 2** by its owner. Until then, use local training. Publishing these releases does not deploy Google Apps Script.
+- **Training awards no rewards:** battle EXP, fragments and loot are previews, including in parties. World exploration remains separate from these training encounters.
+- Update Companion first, then open **Modules > Update installed** and install **Games 1.52**.
 
-- **Startup fix:** the Companion starts with older Games installations. Open Modules and update Games to 1.36. Sleep, live EXP and shared messes are negotiated with the installed module.
-
-- **Games / Mochipi 1.36:** 100 challenge levels with progress filters, notifications and bulk claiming; store inventory, nighttime sleep, smoother animations and performance fixes.
-- Visits grant live EXP to both pets, synchronize sleep and messes, and include repeat-visit and farming bonuses. The Friends Google deployment must also be updated.
-- Guardian-stage Adventure includes family-specific RPG stats, equipment slots, 45 equipment templates, backpack, upgrades, dismantling and a progressively unlocked bestiary.
-- Episode 1 assets and technical foundations cover plains, forest, quarry and the Golem King's fortress, with open regions, dungeon maps, directional sprites and centered transparent treasure chests. **Playable world exploration and combat are not included yet.**
-- **Soul Tracking / Collection 1.17:** individual map filter including Verteron and Altgard, with the shared Bootstrap selector style.
-
-[Full release notes and download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/v1.295)
+[Full release notes and download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/v1.312)
 
 ## Modules
 
@@ -26,7 +25,7 @@ Update the Companion before installing new modules. Packages are verified throug
 
 | Module | Version | Release |
 |---|---|---|
-| Games | 1.36 | [Download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/games-v1.36) |
+| Games | 1.52 | [Download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/games-v1.52) |
 | Market | 1.5 | [Download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/market-v1.5) |
 | DPS Meter | 1.6 | [Download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/dps_meter-v1.6) |
 | DPS Check | 1.0 | [Download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/dps_check-v1.0) |
