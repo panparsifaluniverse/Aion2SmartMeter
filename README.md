@@ -6,18 +6,16 @@ Free modular companion for Aion 2. Previously named Aion2SmartMeter.
 
 Extract the Companion ZIP, close the previous application completely and run the new EXE. Open **Companion > Modules > Update installed** to update your tools. Character data and preferences are preserved. English, Italian and Estonian are supported.
 
-## Latest: v1.312
+## Latest: v1.314
 
-- **Games / Mochipi 1.52:** playable card-battle training across four biomes, a fanned hand extending outside the battle window, red cooldown counters and animated critical hits.
-- Family-specific unlockable skills, stage-4 specials, team support, one-turn shields and 33 distinct sound effects. Choose cards in the pet skills window before starting an encounter.
-- Compact movable squad panel, loading centered on the Adventure window and a cozy results screen showing the current player's pet EXP preview.
-- Gentler global stat-upgrade prices, displayed once below the growth-fragment balance. Existing points and balances are preserved.
-- Party browser with public/private groups, organizer approval, member removal and readiness. GM redemption interface and GM Candy evolution item.
-- **Online party requirement:** the dedicated Battles service must be privately redeployed with **rules 2** by its owner. Until then, use local training. Publishing these releases does not deploy Google Apps Script.
-- **Training awards no rewards:** battle EXP, fragments and loot are previews, including in parties. World exploration remains separate from these training encounters.
-- Update Companion first, then open **Modules > Update installed** and install **Games 1.52**.
+- **DPS Meter:** boss encounter duration freezes when the boss dies, even if a secondary target remains active. Verified against a recorded Nuakum fight and the packaged EXE; 85 tests cover timing, resets, metrics and archives.
+- **Games 1.53:** expiring GM Gift codes support unlimited recipients, once per person. Interrupted deliveries remain recoverable after expiry; single-use codes remain available.
+- Clearer redemption messages for expired codes and incompatible service versions.
+- Update Companion first, then open **Modules > Update installed** and install **Games 1.53**. The DPS fix requires the new Companion EXE.
+- Expiring gifts require a private Battles service update by its owner, setupGifts and redeployment. Publishing these releases does not deploy Google Apps Script; private scripts are not included.
+- Mochipi battle training still awards no EXP, items or growth fragments.
 
-[Full release notes and download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/v1.312)
+[Full release notes and download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/v1.314)
 
 ## Modules
 
@@ -25,7 +23,7 @@ Update the Companion before installing new modules. Packages are verified throug
 
 | Module | Version | Release |
 |---|---|---|
-| Games | 1.52 | [Download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/games-v1.52) |
+| Games | 1.53 | [Download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/games-v1.53) |
 | Market | 1.5 | [Download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/market-v1.5) |
 | DPS Meter | 1.6 | [Download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/dps_meter-v1.6) |
 | DPS Check | 1.0 | [Download](https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/tag/dps_check-v1.0) |
