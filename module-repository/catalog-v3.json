@@ -3,12 +3,12 @@
   "modules": [
     {
       "id": "games",
-      "version": "1.98",
-      "archive": "games-1.98.zip",
-      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/games-v1.98/games-1.98.zip",
-      "sha256": "24508a6624c916fdd88ce16d70a0b84f9a83841adedba4e3934fd93846d542ce",
-      "size": 826768701,
-      "manifest_sha256": "3961f5f286cb24896f037793852abc97c57a86e1a3755484b8cef35a3d6ed6bd"
+      "version": "1.99",
+      "archive": "games-1.99.zip",
+      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/games-v1.99/games-1.99.zip",
+      "sha256": "f9817d04020f3403dc4fd69c4926a8d743a13fec01bf0b62140f4a845f4824f5",
+      "size": 826769655,
+      "manifest_sha256": "fede51658c3398486eb91449f1337a0e1c386dc951933512347a0e0d314c7638"
     },
     {
       "id": "market",
@@ -39,12 +39,12 @@
     },
     {
       "id": "soul_tracking",
-      "version": "1.21",
-      "archive": "soul_tracking-1.21.zip",
-      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/soul_tracking-v1.21/soul_tracking-1.21.zip",
-      "sha256": "cd6a1901b2d63742c3d3456a46f1475aa3553b516141bd32def5c4f83fd6f8d3",
-      "size": 11491354,
-      "manifest_sha256": "ef227b95d07bba81c5f50389147b442f1e0c009f8f52b3c702f93758a2ae275f"
+      "version": "1.22",
+      "archive": "soul_tracking-1.22.zip",
+      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/soul_tracking-v1.22/soul_tracking-1.22.zip",
+      "sha256": "1e3aa358397b2c764deab08861a71c200d9c851badf5daaa157c30f3c53a2894",
+      "size": 11491372,
+      "manifest_sha256": "b42c3eb1a58084c50f164838f3cdefbe9cb3a625bae323feb133e68e65c81a38"
     },
     {
       "id": "loot",
@@ -83,5 +83,5 @@
       "manifest_sha256": "b03937a90a1b27df79e7c411c77bd976956cfa4d23e10630c93ff2ecdd778c0a"
     }
   ],
-  "signature": "creq/AhS1f/RlUUnvfNauSjms7LreI7JhiSnls1917VYvsKlk5iPtwQ2ybxOjYB7mc8yuF/gAUWs9NrO8HoMBg=="
+  "signature": "sT0ZuiCL9WI3SyahZ/z9M58GO4Y+WqmIvD7b7OqUx05LtAYGbker8gUpYsHSajHrOZes7UV3+rgMNVOJ/kcmCQ=="
 }
