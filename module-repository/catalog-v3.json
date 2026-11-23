@@ -3,12 +3,12 @@
   "modules": [
     {
       "id": "games",
-      "version": "1.202",
-      "archive": "games-1.202.zip",
-      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/games-v1.202/games-1.202.zip",
-      "sha256": "a4817472531f771c068de613fbc7042be07db889b0043345d79e94c4a967b0cf",
-      "size": 1128741907,
-      "manifest_sha256": "33b208222165a1a105662b79b1bde5856c499a65726f8061ec390ca15a2c0f08"
+      "version": "1.204",
+      "archive": "games-1.204.zip",
+      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/games-v1.204/games-1.204.zip",
+      "sha256": "96f5bbe8cf259c3bae38f2e3dbcc97a5986bde2dee29db544a29a5bb64c1779f",
+      "size": 1128742911,
+      "manifest_sha256": "8b3fe1a00a962dc63f0a22e270beea3f08158480b7430fede6806a1a8e645cd0"
     },
     {
       "id": "market",
@@ -83,5 +83,5 @@
       "manifest_sha256": "b03937a90a1b27df79e7c411c77bd976956cfa4d23e10630c93ff2ecdd778c0a"
     }
   ],
-  "signature": "yG4Mepx5PnYSbIFeRgW2JAzcMvFO0EkTMT+54g+vgzk/kU5Zuz0ElAS+P+HnC050u7zOZBacgkgqLZEQzJfuBg=="
+  "signature": "bSLKeIhgjZwbUMu+alrROOHyvlbdbI6GcQqV0BNrHVwMZbkSeEIuwGU++6DA1j1pktoKFvwYQcPtyG5FWjIDCw=="
 }
