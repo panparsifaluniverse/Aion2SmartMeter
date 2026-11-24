@@ -57,12 +57,12 @@
     },
     {
       "id": "events",
-      "version": "1.13",
-      "archive": "events-1.13.zip",
-      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/events-v1.13/events-1.13.zip",
-      "sha256": "1eaaa28bd39d949bdc9e38238e43313c19a59d51a36cfff0b641400babf4ede7",
-      "size": 3253166,
-      "manifest_sha256": "975156551773136115542b4a9d2ad3bf1ce7ee70e127a5dcce99558c6a760294"
+      "version": "1.14",
+      "archive": "events-1.14.zip",
+      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/events-v1.14/events-1.14.zip",
+      "sha256": "ed1ec2c21830c1a3c4dfbae3916ee712805508eda8a9ed17873efc4acc281d6f",
+      "size": 3253217,
+      "manifest_sha256": "976309287820b2af29e97a7a2d9b3280550c306e19cf1ad443fabe693ac3d3ca"
     },
     {
       "id": "browser",
@@ -83,5 +83,5 @@
       "manifest_sha256": "b03937a90a1b27df79e7c411c77bd976956cfa4d23e10630c93ff2ecdd778c0a"
     }
   ],
-  "signature": "gc6hUCXkJy9QOG+r3QBqK2hVhTkNgUSxzhhAOGLUWo3WjpAk8lMCn4cPbkEAplkaJE6BKbi3WB594cY7xJjiBg=="
+  "signature": "2XCtCP1qvWDK5kXRbRQSIXTLN/Ci72AHfGz6TS6sL5Pg+pE00nquOPuo9RdIPZ9a1wb8S4KH1Au/do9h2uuRBw=="
 }
