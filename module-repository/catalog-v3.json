@@ -39,12 +39,12 @@
     },
     {
       "id": "soul_tracking",
-      "version": "1.24",
-      "archive": "soul_tracking-1.24.zip",
-      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/soul_tracking-v1.24/soul_tracking-1.24.zip",
-      "sha256": "83d8d835228848772657b3c3f40d540e81aa4cb797674fcf272840d136c12ec4",
-      "size": 11497341,
-      "manifest_sha256": "de22ce9b3983e400afb81319404a5d939b5c6da50b3aa0858ff0f33afa47ac46"
+      "version": "1.25",
+      "archive": "soul_tracking-1.25.zip",
+      "url": "https://github.com/panparsifaluniverse/Aion2SmartMeter/releases/download/soul_tracking-v1.25/soul_tracking-1.25.zip",
+      "sha256": "0107ca3493ed8869e6edb41157462b85d9601cdc78ce953078bceae024257b5f",
+      "size": 11499980,
+      "manifest_sha256": "257d30b7f6895ef9d01fedcbe64873e2620d95d3561e976dbed178e4cee48a48"
     },
     {
       "id": "loot",
@@ -83,5 +83,5 @@
       "manifest_sha256": "b03937a90a1b27df79e7c411c77bd976956cfa4d23e10630c93ff2ecdd778c0a"
     }
   ],
-  "signature": "inyxQKAOMeagTJ6kdfSJJsFjzpSoCk5Dzb1wknDDLmV7MkgnpDYQJ+4XEyFeioTxyZfDz+clhEp3QdUuPN/xCg=="
+  "signature": "CDl/FgT11h0NQ76snjH1Z66+Y8tFUqpmZ6FhNuoYD41rqWC/0yAdq+3FrPRtbdMwszGfIJ0xpCw18nZL7o3RAQ=="
 }
